@@ -11,24 +11,28 @@
     .badge { display: inline-block; background: #0866ff; color: white; padding: 4px 12px; border-radius: 20px; font-size: 0.85rem; margin-bottom: 24px; }
     h2 { font-size: 1.1rem; margin-top: 40px; }
     ul { color: #555; line-height: 1.8; }
+    .links { margin-top: 40px; display: flex; gap: 16px; flex-wrap: wrap; }
+    .links a { color: #0866ff; font-size: 0.95rem; }
     footer { margin-top: 60px; font-size: 0.8rem; color: #999; }
-    a { color: #0866ff; }
   </style>
 </head>
 <body>
   <span class="badge">Meta Ads</span>
   <h1>Meta Ads Manager</h1>
-  <p>Ferramenta interna de gestão e ativação de campanhas Meta Ads para o Grupo Saga. Automatiza a criação, nomenclatura e atualização de anúncios via API do Meta Ads.</p>
-  <p>Este aplicativo opera exclusivamente em contas de anúncios autorizadas do Grupo Saga e é utilizado por usuários internos com acesso administrativo ao Business Manager.</p>
+  <p>Ferramenta de gestão e ativação de campanhas Meta Ads via API. Automatiza a criação, nomenclatura e atualização de anúncios para contas de anúncios autorizadas, operada exclusivamente por usuários administrativos com acesso ao Business Manager.</p>
   <h2>Funcionalidades</h2>
   <ul>
-    <li>Criação automatizada de anúncios com nomenclatura padronizada</li>
-    <li>Upload e gestão de criativos (imagens e vídeos)</li>
-    <li>Gestão de campanhas, conjuntos e anúncios via Graph API</li>
-    <li>Relatórios e diagnóstico de performance</li>
+    <li>Upload de criativos (imagens e vídeos) em lote</li>
+    <li>Criação e publicação de anúncios com nomenclatura padronizada</li>
+    <li>Duplicação e atualização de criativos em conjuntos existentes</li>
+    <li>Pausa automatizada de anúncios anteriores antes de publicar novos</li>
+    <li>Renomeação de campanhas e conjuntos por período</li>
   </ul>
-  <h2>Contato</h2>
-  <p>Para suporte ou informações: <a href="mailto:estevaopbxs@gmail.com">estevaopbxs@gmail.com</a></p>
-  <footer>Grupo Saga &mdash; Uso interno</footer>
+  <div class="links">
+    <a href="usage.html">Como usar</a>
+    <a href="privacy.html">Política de Privacidade</a>
+    <a href="deletion.html">Exclusão de Dados</a>
+  </div>
+  <footer>Grupo Saga &mdash; Uso interno &mdash; <a href="mailto:estevaopbxs@gmail.com">estevaopbxs@gmail.com</a></footer>
 </body>
 </html>
