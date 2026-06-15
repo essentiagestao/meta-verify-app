@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Como Usar — Meta Ads Manager</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; max-width: 720px; margin: 60px auto; padding: 0 24px; color: #1a1a1a; }
+    h1 { font-size: 1.8rem; margin-bottom: 4px; }
+    .sub { color: #666; margin-bottom: 40px; }
+    .feature { border: 1px solid #e5e5e5; border-radius: 10px; padding: 20px 24px; margin-bottom: 16px; }
+    .feature h2 { font-size: 1rem; margin: 0 0 8px; display: flex; align-items: center; gap: 10px; }
+    .feature p { color: #555; margin: 0; font-size: 0.95rem; line-height: 1.5; }
+    .icon { font-size: 1.2rem; }
+    .permissions { background: #f8f9fa; border-radius: 10px; padding: 20px 24px; margin-top: 32px; }
+    .permissions h2 { font-size: 1rem; margin: 0 0 12px; }
+    .perm { display: flex; gap: 12px; margin-bottom: 10px; font-size: 0.9rem; color: #444; }
+    .perm-name { font-weight: 600; min-width: 200px; }
+    footer { margin-top: 48px; font-size: 0.8rem; color: #999; }
+    a { color: #0866ff; }
+  </style>
+</head>
+<body>
+  <h1>Como Usar</h1>
+  <p class="sub">Meta Ads Manager &mdash; Funcionalidades principais</p>
+
+  <div class="feature">
+    <h2><span class="icon">📤</span> Subir criativo</h2>
+    <p>Faz upload de imagens (FEED e Stories) para a biblioteca de mídia da conta de anúncios via API. Suporta múltiplos arquivos em lote, com cache de hash para evitar reenvio de arquivos já existentes.</p>
+  </div>
+
+  <div class="feature">
+    <h2><span class="icon">✏️</span> Criar legenda</h2>
+    <p>Gera e associa o texto do anúncio (body text) ao criativo. A legenda é extraída do anúncio de referência existente na conta ou definida manualmente, e aplicada a todos os novos anúncios do lote.</p>
+  </div>
+
+  <div class="feature">
+    <h2><span class="icon">📋</span> Duplicar anúncio</h2>
+    <p>Replica a estrutura de um anúncio existente (criativo, formato, segmentação de placement) para criar novos anúncios com criativos atualizados, mantendo as configurações de otimização do conjunto.</p>
+  </div>
+
+  <div class="feature">
+    <h2><span class="icon">🚀</span> Publicar anúncio</h2>
+    <p>Cria e ativa anúncios em conjuntos de anúncios existentes, com status ACTIVE ou PAUSED conforme configurado. Aplica nomenclatura padronizada e regras de placement customizadas por posicionamento (Feed vs Stories).</p>
+  </div>
+
+  <div class="feature">
+    <h2><span class="icon">⏸️</span> Pausar anúncios anteriores</h2>
+    <p>Antes de publicar novos criativos, pausa automaticamente os anúncios ativos do conjunto para evitar sobreposição de versões. Operação cirúrgica por conjunto de anúncios, sem afetar outras campanhas.</p>
+  </div>
+
+  <div class="feature">
+    <h2><span class="icon">🏷️</span> Nomear e renomear</h2>
+    <p>Aplica e atualiza nomenclatura padronizada em campanhas, conjuntos e anúncios seguindo convenção interna (formato, modelo, CTA, mês e ano). Renomeia entidades existentes via API para manter consistência.</p>
+  </div>
+
+  <div class="permissions">
+    <h2>Permissões utilizadas</h2>
+    <div class="perm"><span class="perm-name">ads_management</span><span>Criar, editar e publicar campanhas, conjuntos e anúncios</span></div>
+    <div class="perm"><span class="perm-name">ads_read</span><span>Ler estrutura de campanhas e criativos existentes</span></div>
+    <div class="perm"><span class="perm-name">business_management</span><span>Acessar contas de anúncios vinculadas ao Business Manager</span></div>
+    <div class="perm"><span class="perm-name">pages_read_engagement</span><span>Associar página correta ao criativo no momento da publicação</span></div>
+  </div>
+
+  <footer>
+    <a href="index.html">Sobre o app</a> &middot;
+    <a href="privacy.html">Política de Privacidade</a> &middot;
+    <a href="deletion.html">Exclusão de Dados</a>
+  </footer>
+</body>
+</html>
